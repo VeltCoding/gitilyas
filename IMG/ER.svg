@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
+  <style>text{font-family:Arial, Helvetica, sans-serif; font-size:14px;} .box{fill:#fff;stroke:#333;stroke-width:2;} .rel{stroke:#333;stroke-width:1.5;fill:none}</style>
+  <!-- Entità -->
+  <rect x="60" y="80" width="180" height="80" class="box"/>
+  <text x="150" y="120" text-anchor="middle">Utente</text>
+  <rect x="360" y="80" width="220" height="80" class="box"/>
+  <text x="470" y="120" text-anchor="middle">Officina</text>
+  <rect x="680" y="80" width="200" height="80" class="box"/>
+  <text x="780" y="120" text-anchor="middle">Prodotto</text>
+
+  <!-- Relazioni -->
+  <line x1="240" y1="120" x2="360" y2="120" class="rel"/>
+  <text x="300" y="110" text-anchor="middle">prenota / ordina</text>
+
+  <line x1="580" y1="120" x2="680" y2="120" class="rel"/>
+  <text x="630" y="110" text-anchor="middle">offre</text>
+
+  <!-- Attributi esempio -->
+  <text x="150" y="160" text-anchor="middle">(id, nome, email)</text>
+  <text x="470" y="160" text-anchor="middle">(id, nome, indirizzo, shop)</text>
+  <text x="780" y="160" text-anchor="middle">(id, nome, codice, prezzo)</text>
+
+  <!-- Note di cardinalità -->
+  <text x="325" y="140" text-anchor="middle">1..*</text>
+  <text x="635" y="140" text-anchor="middle">1..*</text>
+
+</svg>

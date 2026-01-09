@@ -1,0 +1,26 @@
+[
+    {
+        "titolo": "ciao1",
+        "descrizione": "test",
+        "prezzo": "44",
+        "immagine": "Screenshot 2025-10-13 082805.png"
+    },
+    {
+        "titolo": "aa",
+        "descrizione": "sasa",
+        "prezzo": "12",
+        "immagine": "download.jpg"
+    },
+    {
+        "titolo": "1",
+        "descrizione": "12",
+        "prezzo": "12",
+        "immagine": "download.jpg"
+    },
+    {
+        "titolo": "sdf",
+        "descrizione": "sfsdf",
+        "prezzo": "435",
+        "immagine": "RicomotoLogo.png"
+    }
+]
